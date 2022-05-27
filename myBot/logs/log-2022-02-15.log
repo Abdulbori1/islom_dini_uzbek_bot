@@ -1,0 +1,30 @@
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:3632)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:3632)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.company.UserCount.getUserCount()" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:3632)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "java.lang.Integer.intValue()" because "count" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "count" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:3631)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "java.lang.Integer.intValue()" because "count" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.Integer.intValue()" because "count" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:3631)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)

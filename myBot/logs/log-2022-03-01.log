@@ -1,0 +1,52 @@
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "com.company.Enams.equals(Object)" because "this.enams" is null
+java.lang.NullPointerException: Cannot invoke "com.company.Enams.equals(Object)" because "this.enams" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "com.company.Enams.equals(Object)" because "this.enams" is null
+java.lang.NullPointerException: Cannot invoke "com.company.Enams.equals(Object)" because "this.enams" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Cannot invoke "com.company.Enams.equals(Object)" because "com.company.ComponentContainer.enams" is null
+java.lang.NullPointerException: Cannot invoke "com.company.Enams.equals(Object)" because "com.company.ComponentContainer.enams" is null
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:69)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - For input string: "��"
+java.lang.NumberFormatException: For input string: "��"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1163)
+	at com.company.repository.UserRepository.getUserLIst(UserRepository.java:32)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:49)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - For input string: "��"
+java.lang.NumberFormatException: For input string: "��"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Long.parseLong(Long.java:711)
+	at java.base/java.lang.Long.valueOf(Long.java:1163)
+	at com.company.repository.UserRepository.getUserLIst(UserRepository.java:32)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Index 1 out of bounds for length 1
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.company.repository.UserRepository.getUserLIst(UserRepository.java:37)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Index 1 out of bounds for length 1
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.company.repository.UserRepository.getUserList(UserRepository.java:29)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:43)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)

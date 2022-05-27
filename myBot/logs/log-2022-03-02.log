@@ -1,0 +1,24 @@
+ERROR o.t.t.u.DefaultBotSession - Index 1 out of bounds for length 1
+java.lang.ArrayIndexOutOfBoundsException: Index 1 out of bounds for length 1
+	at com.company.repository.UserRepository.getUserList(UserRepository.java:29)
+	at com.company.manager.BotManager.checkUserId(BotManager.java:3678)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Index 2 out of bounds for length 1
+java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 1
+	at com.company.repository.UserRepository.getUserList(UserRepository.java:29)
+	at com.company.manager.BotManager.checkUserId(BotManager.java:3678)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
+ERROR o.t.t.u.DefaultBotSession - Index 3 out of bounds for length 1
+java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 1
+	at com.company.repository.UserRepository.getUserList(UserRepository.java:29)
+	at com.company.manager.BotManager.checkUserId(BotManager.java:3678)
+	at com.company.manager.BotManager.onUpdateReceived(BotManager.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:317)
